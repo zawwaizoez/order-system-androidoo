@@ -57,7 +57,7 @@ public class SimpleTabsActivity extends AppCompatActivity {
             return mFragmentList.get(position);
         }
 
-        @Override
+        @Overridee
         public int getCount() {
             return mFragmentList.size();
         }
