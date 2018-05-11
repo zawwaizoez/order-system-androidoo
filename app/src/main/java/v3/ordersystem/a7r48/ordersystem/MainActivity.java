@@ -73,8 +73,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnLogin:
                // customExitDialog();
-                customLogin();
-
+//                customLogin();
+                Intent ir = new Intent(MainActivity.this,Main2.class);
+                startActivity(ir);
                 break;
 
 
